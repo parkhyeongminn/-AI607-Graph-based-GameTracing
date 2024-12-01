@@ -1,0 +1,29 @@
+name: AI607
+channels:
+  - conda-forge
+  - dglteam/label/cu118
+dependencies:
+  - python==3.9.2
+  - pip
+  - joblib==1.1.0
+  - numpy==1.22.3
+  - pandas==1.5.3
+  - PyYAML==6.0
+  - tslearn==0.6.1
+  - ttkwidgets==0.13.0
+  - watchdog==3.0.0
+  - scikit-learn==1.0.2
+  - umap-learn==0.5.3
+  - hdbscan==0.8.28
+  - ipython==8.15.0
+  - scikit-image==0.19.3
+  - dgl
+  - pip:
+    - opencv_python==4.5.3.56
+    - opencv_python_headless==4.5.3.56
+    - --extra-index-url https://download.pytorch.org/whl/cu118
+    - torch==2.0.1+cu118
+    - --extra-index-url https://download.pytorch.org/whl/cu118
+    - torchvision==0.15.2+cu118
+    - staintools==2.1.2
+    - spams-bin==2.6.7
